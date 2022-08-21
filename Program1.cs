@@ -48,7 +48,6 @@ namespace Market
     class Trader
     {
         private List <Product> _products = new List <Product>();
-
         protected List<Stack> _stacks = new List<Stack>();             
         protected int _money;
 
